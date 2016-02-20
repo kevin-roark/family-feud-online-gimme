@@ -1,6 +1,7 @@
 
 var renderer = new frampton.WebRenderer({
-  mediaConfig: mediaConfig
+  mediaConfig: mediaConfig,
+  timeToLoadVideo: 2500
 });
 
 var firstSegment = newSequencedSegment();
