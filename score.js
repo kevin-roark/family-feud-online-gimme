@@ -5,7 +5,7 @@ var renderer = new frampton.WebRenderer({
 });
 
 var firstSegment = newSequencedSegment();
-renderer.scheduleSegmentRender(firstSegment, 1000);
+renderer.scheduleSegmentRender(firstSegment, 2000);
 
 function newSequencedSegment() {
   var segments = [];
