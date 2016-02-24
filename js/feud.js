@@ -2,8 +2,7 @@
 (function() {
   var backgroundImage = document.createElement('img');
   backgroundImage.className = 'background-image';
-  var imageIndex = Math.floor(Math.random() * 10) + 1;
-  backgroundImage.src = 'http://www.feud.online/media/bgnew' + imageIndex + '.png';
+  backgroundImage.src = 'http://www.feud.online/media/bgnew1.png';
   document.body.appendChild(backgroundImage);
 
   var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
